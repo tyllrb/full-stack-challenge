@@ -4,9 +4,11 @@ This is an interview challenge for Paytm Labs. Please feel free to fork. Pull Re
 ## Requirements
 Design a web application that allows employees to submit feedback toward each other's performance review.
 
+*Partial solutions are acceptable.*  It is not necessary to submit a complete solution that implements every requirement.
+
 ### Admin view
 * Add/remove/update/view employees
-* Add/update/view performance review
+* Add/update/view performance reviews
 * Assign employees to participate in another employee's performance review
 
 ### Employee view
@@ -14,14 +16,15 @@ Design a web application that allows employees to submit feedback toward each ot
 * Submit feedback
 
 ## Challenge Scope
-* High level diagram/description of design and technologies used
-* Data store/data model design
-* Server side API design (Using a programming language and/or framework of your choice)
-  * Implementation of 3 API calls
-* Web app page flow design
-  * Implementation of 2-5 web pages using any modern framework (e.g. Angular, Ember or React) that talks to server side
-    * You may use static responses instead of live server side API
+* High level description of design and technologies used
+* Server side API (using a programming language and/or framework of your choice)
+  * Implementation of at least 3 API calls
+  * Most full stack web developers at Paytm Labs currently use Node.js and/or Ruby on Rails on the server (with MySQL for the database), but feel free to use other tech if you prefer
+* Web app
+  * Implementation of 2-5 web pages using a modern web framework (preferably React) that talks to server side
+    * This should integrate with your API, but it's fine to use static responses for some of it 
 * Document all assumptions made
+* Complete solutions aren't required, but what you do submit needs to run.
 
 ## How to complete this challenge
 * Fork this repo in github
